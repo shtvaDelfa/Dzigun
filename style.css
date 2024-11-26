@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    /* background: url(12345.jpg) no-repeat center/cover; */
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 34%, rgba(195, 143, 166, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: bisque;
+    max-width: 400px;
+    text-align: center;
+}
+
+.card-header,
+.card-footer {
+    background-color: darkgrey;
+    padding: 20px;
+    border-top-left-radius: 20px;
+}
+
+button {
+    background-color: bisque;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.card-body {}
+
+.card-footer {}
